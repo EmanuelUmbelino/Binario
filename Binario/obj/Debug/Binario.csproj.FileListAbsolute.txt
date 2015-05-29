@@ -1,0 +1,45 @@
+C:\Users\Emanuel Messias\Downloads\Binario\Binario\bin\Debug\Binario.exe.config
+C:\Users\Emanuel Messias\Downloads\Binario\Binario\obj\Debug\Binario.csprojResolveAssemblyReference.cache
+C:\Users\Emanuel Messias\Downloads\Binario\Binario\obj\Debug\Binario.Form1.resources
+C:\Users\Emanuel Messias\Downloads\Binario\Binario\obj\Debug\Binario.Properties.Resources.resources
+C:\Users\Emanuel Messias\Downloads\Binario\Binario\obj\Debug\Binario.csproj.GenerateResource.Cache
+C:\Users\Emanuel Messias\Downloads\Binario\Binario\bin\Debug\Binario.exe
+C:\Users\Emanuel Messias\Downloads\Binario\Binario\bin\Debug\Binario.pdb
+C:\Users\Emanuel Messias\Downloads\Binario\Binario\obj\Debug\Binario.exe
+C:\Users\Emanuel Messias\Downloads\Binario\Binario\obj\Debug\Binario.pdb
+C:\Users\Emanuel.Umbelino\Downloads\Binario\Binario\bin\Debug\Binario.exe.config
+C:\Users\Emanuel.Umbelino\Downloads\Binario\Binario\obj\Debug\Binario.exe
+C:\Users\Emanuel.Umbelino\Downloads\Binario\Binario\obj\Debug\Binario.pdb
+C:\Users\Emanuel.Umbelino\Downloads\Binario\Binario\bin\Debug\Binario.exe
+C:\Users\Emanuel.Umbelino\Downloads\Binario\Binario\bin\Debug\Binario.pdb
+C:\Users\Emanuel.Umbelino\Downloads\Binario\Binario\obj\Debug\Binario.csprojResolveAssemblyReference.cache
+C:\Users\Emanuel.Umbelino\Downloads\Binario\Binario\obj\Debug\Binario.Form1.resources
+C:\Users\Emanuel.Umbelino\Downloads\Binario\Binario\obj\Debug\Binario.Properties.Resources.resources
+C:\Users\Emanuel.Umbelino\Downloads\Binario\Binario\obj\Debug\Binario.csproj.GenerateResource.Cache
+C:\Users\lucas.correa\Downloads\Binario (1)\Binario\Binario\bin\Debug\Binario.exe.config
+C:\Users\lucas.correa\Downloads\Binario (1)\Binario\Binario\bin\Debug\Binario.exe
+C:\Users\lucas.correa\Downloads\Binario (1)\Binario\Binario\bin\Debug\Binario.pdb
+C:\Users\lucas.correa\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.csprojResolveAssemblyReference.cache
+C:\Users\lucas.correa\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.Form1.resources
+C:\Users\lucas.correa\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.Properties.Resources.resources
+C:\Users\lucas.correa\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.csproj.GenerateResource.Cache
+C:\Users\lucas.correa\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.exe
+C:\Users\lucas.correa\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.pdb
+C:\Users\SEEDUC\Downloads\Binario (1)\Binario\Binario\bin\Debug\Binario.exe.config
+C:\Users\SEEDUC\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.exe
+C:\Users\SEEDUC\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.pdb
+C:\Users\SEEDUC\Downloads\Binario (1)\Binario\Binario\bin\Debug\Binario.exe
+C:\Users\SEEDUC\Downloads\Binario (1)\Binario\Binario\bin\Debug\Binario.pdb
+C:\Users\SEEDUC\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.csprojResolveAssemblyReference.cache
+C:\Users\SEEDUC\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.Form1.resources
+C:\Users\SEEDUC\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.Properties.Resources.resources
+C:\Users\SEEDUC\Downloads\Binario (1)\Binario\Binario\obj\Debug\Binario.csproj.GenerateResource.Cache
+C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\bin\Debug\Binario.exe.config
+C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\obj\Debug\Binario.exe
+C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\obj\Debug\Binario.pdb
+C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\bin\Debug\Binario.exe
+C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\bin\Debug\Binario.pdb
+C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\obj\Debug\Binario.csprojResolveAssemblyReference.cache
+C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\obj\Debug\Binario.Form1.resources
+C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\obj\Debug\Binario.Properties.Resources.resources
+C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\obj\Debug\Binario.csproj.GenerateResource.Cache
