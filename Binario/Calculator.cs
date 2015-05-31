@@ -27,42 +27,31 @@ namespace Binario
         //funcao para somar binario
         private double soma(double valor, double valor2)
         {
-            string atual = valor.ToString();
-            string atual2 = valor2.ToString();
-            StringBuilder genValue = new StringBuilder(atual);
-            StringBuilder genValue2 = new StringBuilder(atual2);
+            string atual = Inverter(valor.ToString());
+            string atual2 = Inverter(valor2.ToString());
             bool carregado = false;
             string result = "";
-            if (genValue.Length > genValue2.Length)
-            {
-                for (int i = 1; i < genValue.Length ; i++)
-                {
-                    genValue2.Insert(0, '0');
-                }
-            }
-            else if (genValue.Length < genValue2.Length)
-            {
-                for (int i = 1; i < genValue2.Length ; i++)
-                {
-                    genValue.Insert(0, '0');
-                }
-            }
-            atual = Inverter(genValue.ToString());
-            atual2 = Inverter(genValue2.ToString());
+            while (atual.Length > atual2.Length)
+                    atual2 += "0";
+           while (atual.Length < atual2.Length)
+                    atual += "0";
             for (int i = 0; i < atual.Length; i++)
             {
                if(atual[i]!= '0')
                    break;
-               if (i.Equals(atual.Length -1))
+               if (i.Equals(atual.Length))
+               {
                    result = atual2;
-
+               }
             }
             for (int i = 0; i < atual2.Length; i++)
             {
                if(atual2[i]!= '0')
                    break;
-                if(i.Equals(atual2.Length - 1))
-                    result = atual;
+               if (i.Equals(atual2.Length))
+               {
+                   result = atual;
+               }
             }
             if(result.Equals(""))
             {
@@ -109,7 +98,7 @@ namespace Binario
                             }
                             break;
                     }
-                    if (carregado && i.Equals(atual.Length - 1))
+                    if (carregado && i.Equals(atual.Length-1))
                         result += "1";
                 }
             }
@@ -122,7 +111,6 @@ namespace Binario
             string atual = Inverter(valor.ToString());
             string atual2 = Inverter(valor2.ToString());
             string[] result = new string[atual.Length];
-            string finalresult = "";
             for (int i = 0; i < atual.Length; i++)
             {
                 for (int t = 0; t < i; t++)
@@ -149,66 +137,32 @@ namespace Binario
         //funcao para subtrair binario
         private double sub(double valor, double valor2)
         {
-            string atual = valor.ToString();
-            string atual2 = valor2.ToString();
-            StringBuilder genValue = new StringBuilder(atual);
-            StringBuilder genValue2 = new StringBuilder(atual2);
-            bool carregado = false;
-            string result = "";
-            if (genValue.Length > genValue2.Length)
+            string atual = Inverter(valor.ToString());
+            string atual2 = Inverter(valor2.ToString());
+            string real = "";
+            if (atual.Length > atual2.Length)
             {
-                for (int i = 0; i < genValue.Length - 1; i++)
-                {
-                    genValue2.Insert(0, '0');
-                }
+                while (atual.Length > atual2.Length)
+                    atual2 += "0";
             }
-            else if (genValue.Length < genValue2.Length)
+            else if (atual.Length < atual2.Length)
             {
-                for (int i = 0; i < genValue2.Length - 1; i++)
-                {
-                    genValue.Insert(0, '0');
-                }
+                while (atual.Length < atual2.Length)
+                    atual += "0";
             }
-            atual = genValue.ToString();
-            atual2 = genValue2.ToString();
-            for (int i = 1; i < atual.Length; i++)
+            atual = Inverter(atual);
+            atual2 = Inverter(atual2);
+            for (int i = 0; i < atual2.Length; i++)
             {
-                if (atual[i].Equals('1'))
-                {
-
-                    if (atual2[i].Equals('1')) result += "0";
-                    else result += "1";
-                }
+                if (atual2[i].Equals('0'))
+                    real += "1";
                 else
-                {
-
-                    if (atual2[i].Equals('1'))
-                    {
-                        MessageBox.Show("sda");
-                       /* if (carregado)
-                            result += "0";
-                        else
-                            result += "1";*/
-                    }
-                    else
-                    {
-                        if (carregado)
-                        {
-                            result += "1";
-                            carregado = false;
-                        }
-                        else
-                        {
-                            result += "0";
-                        }
-
-                    }
-                }
-                if (carregado && i.Equals(atual.Length - 1))
-                    result += "1";
+                    real += "0";
             }
-            result = Inverter(result);
-            return Convert.ToDouble(result);
+            real = soma(Convert.ToDouble(real), 1).ToString(); 
+            real = soma(Convert.ToDouble(atual), Convert.ToDouble(real)).ToString();
+            real = real.Substring(1);
+            return Convert.ToDouble(real);
         }
         //funcao para converter binario para decimal
         public double dec(double valor)

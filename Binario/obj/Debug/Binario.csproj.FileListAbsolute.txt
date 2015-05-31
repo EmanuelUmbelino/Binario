@@ -43,3 +43,12 @@ C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\obj\Debug\Binario.csp
 C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\obj\Debug\Binario.Form1.resources
 C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\obj\Debug\Binario.Properties.Resources.resources
 C:\Users\Emanuel.Umbelino\Documents\GitHub\Binario\Binario\obj\Debug\Binario.csproj.GenerateResource.Cache
+C:\Users\Emanuel Messias\Documents\GitHub\Binario\Binario\bin\Debug\Binario.exe.config
+C:\Users\Emanuel Messias\Documents\GitHub\Binario\Binario\obj\Debug\Binario.exe
+C:\Users\Emanuel Messias\Documents\GitHub\Binario\Binario\obj\Debug\Binario.pdb
+C:\Users\Emanuel Messias\Documents\GitHub\Binario\Binario\bin\Debug\Binario.exe
+C:\Users\Emanuel Messias\Documents\GitHub\Binario\Binario\bin\Debug\Binario.pdb
+C:\Users\Emanuel Messias\Documents\GitHub\Binario\Binario\obj\Debug\Binario.csprojResolveAssemblyReference.cache
+C:\Users\Emanuel Messias\Documents\GitHub\Binario\Binario\obj\Debug\Binario.Form1.resources
+C:\Users\Emanuel Messias\Documents\GitHub\Binario\Binario\obj\Debug\Binario.Properties.Resources.resources
+C:\Users\Emanuel Messias\Documents\GitHub\Binario\Binario\obj\Debug\Binario.csproj.GenerateResource.Cache
