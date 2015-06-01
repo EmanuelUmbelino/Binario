@@ -164,6 +164,21 @@ namespace Binario
             real = real.Substring(1);
             return Convert.ToDouble(real);
         }
+        //funcao para dividir binario
+        private double div(double valor, double valor2)
+        {
+            string atual = valor.ToString();
+            string atual2 = valor2.ToString();
+            double result = 1;
+            while (dec(Convert.ToDouble(atual)) > dec(Convert.ToDouble(atual2)))
+            {
+                atual = sub(Convert.ToDouble(atual), Convert.ToDouble(atual2)).ToString();
+                result = soma(result, 1);
+            }
+
+
+            return Convert.ToDouble(result);
+        }
         //funcao para converter binario para decimal
         public double dec(double valor)
         {
@@ -272,7 +287,7 @@ namespace Binario
                     total = mult(valor, valor2);
                     break;
                 case "/":
-                    total = soma(valor, valor2);
+                    total = div(valor, valor2);
                     break;
             }
         }
