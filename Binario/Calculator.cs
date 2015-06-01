@@ -151,7 +151,12 @@ namespace Binario
                     atual += "0";
             }
             atual = Inverter(atual);
-            atual2 = Inverter(atual2);
+            atual2 = Inverter(atual2); 
+            if (dec(Convert.ToDouble(atual)) < dec(Convert.ToDouble(atual2)))
+            {
+                MessageBox.Show("Por Favor, evite dificuldades. Coloque o primeiro valor maior que o segundo.");
+                return 0;
+            }
             for (int i = 0; i < atual2.Length; i++)
             {
                 if (atual2[i].Equals('0'))
@@ -169,15 +174,18 @@ namespace Binario
         {
             string atual = valor.ToString();
             string atual2 = valor2.ToString();
+            if(dec(Convert.ToDouble(atual)) < dec(Convert.ToDouble(atual2)))
+            {
+                MessageBox.Show("Por Favor, evite dificuldades. Coloque um divisor menor que o dividendo.");
+                return 0;
+            }
             double result = 1;
             while (dec(Convert.ToDouble(atual)) > dec(Convert.ToDouble(atual2)))
             {
                 atual = sub(Convert.ToDouble(atual), Convert.ToDouble(atual2)).ToString();
                 result = soma(result, 1);
             }
-
-
-            return Convert.ToDouble(result);
+            return result;
         }
         //funcao para converter binario para decimal
         public double dec(double valor)
